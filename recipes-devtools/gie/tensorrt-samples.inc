@@ -7,7 +7,7 @@ HOMEPAGE = "http://developer.nvidia.com/tensorrt"
 L4T_DEB_GROUP = "tensorrt"
 
 SRC_COMMON_DEBS = "\
-    libnvinfer-samples_${PV}+cuda12.2_all.deb;downloadfilename=libnvinfer-samples_${PV}+cuda12.2_all.deb;name=samples;subdir=tensorrt \
+    libnvinfer-samples_${PV}%2Bcuda12.2_all.deb;downloadfilename=libnvinfer-samples_${PV}+cuda12.2_all.deb;name=samples;subdir=tensorrt \
 "
 
 SRC_URI:append = " file://0001-Makefile-fix-cross-compilation-issues.patch"

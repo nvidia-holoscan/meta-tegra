@@ -10,8 +10,8 @@ L4T_DEB_GROUP = "cudnn"
 DEPENDS = "libcublas zlib"
 
 SRC_COMMON_DEBS = "\
-    libcudnn8_${PV}+cuda12.2_arm64.deb;name=lib;subdir=cudnn \
-    libcudnn8-dev_${PV}+cuda12.2_arm64.deb;name=dev;subdir=cudnn \
+    libcudnn8_${PV}%2Bcuda12.2_arm64.deb;name=lib;subdir=cudnn \
+    libcudnn8-dev_${PV}%2Bcuda12.2_arm64.deb;name=dev;subdir=cudnn \
 "
 SRC_URI[lib.sha256sum] = "e6cbd1c40552340bc5a1e80707d30af67d368d071c7111f0556b411ad8d73593"
 SRC_URI[dev.sha256sum] = "9c531db5b96a76cc480f8f70ed6ad6a544e5201d65f8d67ca76e74002cec9c88"

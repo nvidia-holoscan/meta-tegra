@@ -8,15 +8,15 @@ HOMEPAGE = "http://developer.nvidia.com/tensorrt"
 L4T_DEB_GROUP = "tensorrt"
 
 SRC_COMMON_DEBS = "\
-    libnvinfer8_${PV}+cuda12.2_arm64.deb;downloadfilename=libnvinfer8_${PV}+cuda12.2_arm64.deb;name=lib;subdir=tensorrt \
-    libnvinfer-dev_${PV}+cuda12.2_arm64.deb;downloadfilename=libnvinfer-dev_${PV}+cuda12.2_arm64.deb;name=dev;subdir=tensorrt \
-    libnvinfer-headers-dev_${PV}+cuda12.2_arm64.deb;downloadfilename=libnvinfer-headers-dev_${PV}+cuda12.2_arm64.deb;name=hdev;subdir=tensorrt \
-    libnvinfer-dispatch8_${PV}+cuda12.2_arm64.deb;downloadfilename=libnvinfer-dispatch8_${PV}+cuda12.2_arm64.deb;name=disp;subdir=tensorrt \
-    libnvinfer-dispatch-dev_${PV}+cuda12.2_arm64.deb;downloadfilename=libnvinfer-dispatch-dev_${PV}+cuda12.2_arm64.deb;name=dispdev;subdir=tensorrt \
-    libnvparsers8_${PV}+cuda12.2_arm64.deb;downloadfilename=libnvparsers8_${PV}+cuda12.2_arm64.deb;name=nvp;subdir=tensorrt \
-    libnvparsers-dev_${PV}+cuda12.2_arm64.deb;downloadfilename=libnvparsers-dev_${PV}+cuda12.2_arm64.deb;name=nvpdev;subdir=tensorrt \
-    libnvinfer-lean8_${PV}+cuda12.2_arm64.deb;downloadfilename=libnvinfer-lean8_${PV}+cuda12.2_arm64.deb;name=nvl;subdir=tensorrt \
-    libnvinfer-lean-dev_${PV}+cuda12.2_arm64.deb;downloadfilename=libnvinfer-lean-dev_${PV}+cuda12.2_arm64.deb;name=nvldev;subdir=tensorrt \
+    libnvinfer8_${PV}%2Bcuda12.2_arm64.deb;downloadfilename=libnvinfer8_${PV}+cuda12.2_arm64.deb;name=lib;subdir=tensorrt \
+    libnvinfer-dev_${PV}%2Bcuda12.2_arm64.deb;downloadfilename=libnvinfer-dev_${PV}+cuda12.2_arm64.deb;name=dev;subdir=tensorrt \
+    libnvinfer-headers-dev_${PV}%2Bcuda12.2_arm64.deb;downloadfilename=libnvinfer-headers-dev_${PV}+cuda12.2_arm64.deb;name=hdev;subdir=tensorrt \
+    libnvinfer-dispatch8_${PV}%2Bcuda12.2_arm64.deb;downloadfilename=libnvinfer-dispatch8_${PV}+cuda12.2_arm64.deb;name=disp;subdir=tensorrt \
+    libnvinfer-dispatch-dev_${PV}%2Bcuda12.2_arm64.deb;downloadfilename=libnvinfer-dispatch-dev_${PV}+cuda12.2_arm64.deb;name=dispdev;subdir=tensorrt \
+    libnvparsers8_${PV}%2Bcuda12.2_arm64.deb;downloadfilename=libnvparsers8_${PV}+cuda12.2_arm64.deb;name=nvp;subdir=tensorrt \
+    libnvparsers-dev_${PV}%2Bcuda12.2_arm64.deb;downloadfilename=libnvparsers-dev_${PV}+cuda12.2_arm64.deb;name=nvpdev;subdir=tensorrt \
+    libnvinfer-lean8_${PV}%2Bcuda12.2_arm64.deb;downloadfilename=libnvinfer-lean8_${PV}+cuda12.2_arm64.deb;name=nvl;subdir=tensorrt \
+    libnvinfer-lean-dev_${PV}%2Bcuda12.2_arm64.deb;downloadfilename=libnvinfer-lean-dev_${PV}+cuda12.2_arm64.deb;name=nvldev;subdir=tensorrt \
 "
 
 SRC_URI[lib.sha256sum] = "eea369672f2398a9973fdbed34d8d003b3c8aebca12b764bd10c8ae9242f8544"
